@@ -6,8 +6,8 @@
 // prompt by default string value return karta hain
 //  jab bhi kisi ki value ko conert karte hain to bah uski ek copy create karke convert karke return karta hain hame use kisi ke inside store karne ke bad use karte hain yadi aap initial value check karenge to bahle jesi hi value hi show karegi
 
-// type conversion 
-
+// type conversion=> manual convert karna 
+// 
 // let salary = prompt('enter your salry') //enter =5000
 // let bonus = 1000;
 // console.log(salary +bonus); // 50001000 concatenate the value
@@ -27,6 +27,7 @@
 // console.log(n);//10
 
 //  truthy and falsy valuees  
+
 //  faslsy :- by default false dega -> 0, "" , undefined , null , NaN  
 
 // let  email;
@@ -49,16 +50,95 @@
 // string bala zero true return karega
 
 
-let height = prompt('enter your age')
-console.log(height);
-if (height)
-    {
-    console.log(`your enterd height is ${height} this ` );
-    }
-else{
-    console.log('enter age');
-    }
+// let height = prompt('enter your age')
+// console.log(height);
+// if (height)
+//     {
+//     console.log(`your enterd height is ${height} this ` );
+//     }
+// else{
+//     console.log('enter age');
+//     }
 
 
+// Boolean operator And OR Not && || !
 
+let hasdrive = true;
+let goodVision = false;
+
+// // console.log(hasdrive&&goodVision);
+// // console.log(hasdrive||goodVision);
+// // console.log(!hasdrive);
+
+// if(hasdrive&&goodVision)
+//     console.log('drive kar');
+// else
+// console.log('tu ren de');
+
+// if(hasdrive||goodVision)
+//     console.log('drive kar');
+// else
+// console.log('tu ren de');
+
+// if(!goodVision)
+//     console.log('drive kar');
+// else
+// console.log('tu ren de');
+
+// if(hasdrive&&goodVision||goodVision)  //tue
+//     console.log('drive kar');
+//     else
+// console.log('rehne dde');
+
+
+//  values 
+// let one = (96+108+89)/3;
+
+// let onek= (88 +91+110)/3
+
+// let two = (97+112+101)/3;
+
+// let twok= (109 +95+123)/3
+
+// let three = (97+112+101)/3;
+
+// let threek= (109 +95+106)/3
+
+// console.log(three);
+// console.log(threek);  // false win  draw
+
+// if(two>twok&& two>100){
+//   console.log("two is winner" , two);
+// }
+// else if(two<twok&& twok>100){
+//     console.log("twok is winner",twok);
+//   }
+// else if(two==twok&& two>100 && twok>100){
+//     console.log("Draw");
+//   }
+// else{
+//     console.log("all team fail");
+//   }
+
+
+// switch case
+// let day = prompt('enter the day')
+
+// switch (day) {
+//     case 'monday':
+//     console.log('enjaoy'); 
+//      break;
+//      case 'monday':
+//         console.log('enjaoy'); 
+//          break;
+//      case 'wednesday':
+//     case 'thursday':
+//      console.log('enjaoy meri jaan'); 
+//     break;
+        
+
+//     default:
+//         console.log('please enter the valid day');
+//         break;
+// }
 
