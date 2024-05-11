@@ -63,8 +63,8 @@
 
 // Boolean operator And OR Not && || !
 
-let hasdrive = true;
-let goodVision = false;
+// let hasdrive = true;
+// let goodVision = false;
 
 // // console.log(hasdrive&&goodVision);
 // // console.log(hasdrive||goodVision);
